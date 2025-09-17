@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 22%;
+  background-color: rgba(255, 255, 255, 1);
+  height: 655px;
+  width: 480px;
+  padding: 35px;
+
+  border-radius: 8px;
+}
+
+.navbarcontainer {
+  width: 416px;
+  height: 129px;
+  padding-top: 20px;
+  gap: 8px;
+}
+.imagestyle {
+  width: 60px;
+  height: 60px;
+}
+
+.navbarwords {
+  font-size: 26px;
+  font-style: Semi Bold;
+}
+
+.inputcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  gap: 8px;
+  width: 416px;
+  height: 312px;
+}
+
+.inputarea {
+  margin-top: 0px;
+  height: 40px;
+  border-radius: 8px;
+  border-color: rgba(12, 165, 233, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.inputarea::placeholder {
+  font-size: 12px;
+  padding-left: 10px;
+  color: rgba(139, 142, 149, 1);
+  letter-spacing: -2%;
+}
+
+.endcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert {
+  color: rgba(225, 73, 66, 1);
+  width: 416px;
+  font-size: 14px;
+  margin-left: 10px;
+  font: inter;
+}
+.btn {
+  margin-top: 200px;
+  width: 416px;
+  height: 44px;
+  background-color: rgba(18, 19, 22, 1);
+  color: white;
+  font-size: 20px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  position: absolute;
+  cursor: pointer;
+}

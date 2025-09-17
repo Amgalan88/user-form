@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(235, 235, 247);
+  margin-top: -150px;
+  margin-left: 70px;
+  width: 100vh;
+  height: 1000px;
+}
